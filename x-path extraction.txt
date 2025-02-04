@@ -1,0 +1,17 @@
+x-path extraction
+
+//p[@class="class_name"]//text()  
+//p
+//p[1]/text()
+//p[contains(@class,"class_name")]
+
+
+//article/h1 (tag under tag)
+#special characters
+--> . refers to a presnet node
+--> .. refers to a parent node
+--> * wild card characters that select all elements or attributes regardless class_name
+--> ./* select all the childern nodes considering the current context
+--> @ select an attributes
+--> () grouping an xpath expression
+--> [n] indicates that a node with index "n"should be selected
